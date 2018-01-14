@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 
-const PREFIX = "?";
+const PREFIX = ".";
 
-const TOKEN = "NDAwMzYzODk3NDM1MTkzMzQ0.DTtTIA.ws-p5bMi6cZLrknParstNtbyXPM";
+const TOKEN = "NDAyMDI3MTM0OTAzOTEwNDAw.DTy27Q.GwLYXXM3k1lV5xe4DJ51GOVs0JI";
 
 var bot = new Discord.Client();
 
@@ -24,10 +24,10 @@ bot.on("message", function(message) {
     switch (args[0].toLowerCase()) {
         case "info":
             const embed = new Discord.RichEmbed()
-            .setTitle("StrayBoots Official Discord Bot")
-            .setDescription("If you want a new alt account/second account write >getalt")
-            .setThumbnail("http://householdairfresheners.com/wp-content/uploads/2017/02/Perfect-S-Logo-Design-75-For-Your-free-logo-designer-with-S-Logo-Design.jpg")
-            .setFooter("Join our discord here: https://discord.gg/hQCbvAk");
+            .setTitle("SupremeAlts Official Discord Bot")
+            .setDescription("If you want a new alt account/second account write ?getalt")
+            .setThumbnail("https://prnt.sc/i07hay")
+            .setFooter("");
             message.channel.send({embed});
             break;
         case "getalt":
@@ -50,8 +50,8 @@ bot.on("message", function(message) {
              var splitted = arr[Math.floor(Math.random() * arr.length)];
             }
             message.author.send(splitted);
-            message.author.send("If you believe your account is not working, send a message to Wrymex.");
-            message.channel.send(message.author + ", you have now received an NFA user! \ Wait ** 10 minutes ** before trying this command again.");
+            message.author.send("If you believe your account is not working, send a message to P0KEMON/RUG.");
+            message.channel.send(message.author + ", you have now received an NFA Account \ Wait ** 10 minutes ** before trying this command again.");
             }); 
          break;
              case "changelog":
